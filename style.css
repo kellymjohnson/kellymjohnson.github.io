@@ -1,0 +1,27 @@
+body {
+    background-color: #f3eeea;
+}
+
+.nav-link {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: #4e4f50;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #b58676;
+    transform: scale(1.05);
+}
+
+.navbar-brand {
+    transition: 0.3s;
+}
+
+.navbar-brand:hover {
+    transform: rotate(5deg);
+}
