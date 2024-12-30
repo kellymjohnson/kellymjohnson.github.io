@@ -1,4 +1,8 @@
 body {
+    background-color: #b58676;
+}
+
+header {
     background-color: #f3eeea;
 }
 
@@ -6,7 +10,7 @@ body {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     color: #4e4f50;
@@ -24,4 +28,28 @@ body {
 
 .navbar-brand:hover {
     transform: rotate(5deg);
+}
+
+main {
+    position: relative;
+}
+
+.curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+}
+
+.curve .shape-fill {
+    fill: #F3EEEA;
 }
