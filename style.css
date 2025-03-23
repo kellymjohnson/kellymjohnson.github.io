@@ -113,11 +113,13 @@ main p {
     font-weight: 400;
     font-size: 21px;
     letter-spacing: .1rem;
-    color: #4e4f50;
 }
 
-#intro {
-    padding-top: 6rem;
+#greeting {
+    font-family: "Kavoon", serif;
+    padding-top: 8rem;
+    color: #f3eeea;
+    font-size: 54px;
 }
 
 #intro > * {
@@ -131,14 +133,21 @@ main p {
 }
 
 .intro-text {
-    background-color: #f3eeea;
-    padding: 3.5rem 2.5rem;
+    color: #f3eeea;
+    background-color: #637060;
+    padding: 2rem 2.5rem;
     border-radius: 7%;
+    border-style: solid;
+    border-color: #f3eeea;
+    border-width: 0.4rem;
 }
 
 #headshot {
     border-radius: 7%;
     width: 100%;
+    border-style: solid;
+    border-color: #f3eeea;
+    border-width: 0.4rem;
 }
 
 footer {

@@ -9,3 +9,4 @@ Colors used:
 Upcoming features:
 * Navbar link to current page is styled (same as on hover)
 * Navbar toggler arrow button changes direction when open
+* Navbar toggler activates on small screens, but not on medium (medium causes nav links on each side to stack)
