@@ -117,14 +117,14 @@ main p {
 
 #greeting {
     font-family: "Kavoon", serif;
-    padding-top: 8rem;
+    padding-top: 8.5rem;
     color: #f3eeea;
-    font-size: 54px;
+    font-size: 3.3rem;
 }
 
 #intro > * {
-    margin: 2rem;
-    width: 362px; /* TODO find a better way to do this */
+    margin: 2.5rem 0.75rem;
+    width: 33%; /* TODO find a better way to do this */
     transition: 0.3s;
 }
 
